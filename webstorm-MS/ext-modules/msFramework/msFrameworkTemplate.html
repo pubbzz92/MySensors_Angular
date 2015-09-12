@@ -17,20 +17,25 @@
         </div>
         <div class="ms-right-controls col-sm-6">
             <div>
-            <button class="btn btn-primary"> button1 </button>
-            <button class="btn btn-success"> button2 </button>
-            <button class="btn btn-warning"> button3 </button>
+                <ul>
+                    <li>
+
+                        <label>Add Device &nbsp</label>
+                        <button class="btn btn-info btn-circle btn-lg " ng-click="doClick()"> <i class="glyphicon glyphicon-plus"></i> </button>
+
+                    </li>
+
+                    <li> PROFILE </li>
+                </ul>
             </div>
 
          </div>
+
     </div>
 
 </div>
-<div ng-transclude></div>
-<!--<div style="color: deepskyblue ;position: absolute;left:220px;top:200px;font-size: 50px">-->
-    <!--{{routeString}}-->
-<!--</div>-->
-<div ng-view class="ms-view">
 
-</div>
+<div ng-transclude></div>
+<div ng-view class="ms-view"></div>
+
 

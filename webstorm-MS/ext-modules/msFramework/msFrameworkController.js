@@ -11,8 +11,14 @@ angular.module("msFramework").controller("msFrameworkController",
 
             });
 
+            $scope.doClick = function(){
+
+                alert("add items");
+
+            };
+
+
 
         }
     ]);
-
 
