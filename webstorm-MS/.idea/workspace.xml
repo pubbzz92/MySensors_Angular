@@ -26,18 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.115385" vertical-offset="816" max-vertical-offset="1751">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msFramework.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFramework.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1099" max-vertical-offset="1666">
-              <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1836">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,9 +36,11 @@
       <file leaf-file-name="msFrameworkTemplate.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77272725" vertical-offset="0" max-vertical-offset="799">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.5151515" vertical-offset="782" max-vertical-offset="1394">
+              <caret line="62" column="83" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#form#0;n#modal#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +48,8 @@
       <file leaf-file-name="msFrameworkController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -66,8 +58,8 @@
       <file leaf-file-name="msFrameworkDirective.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="1122">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -76,7 +68,7 @@
       <file leaf-file-name="msFrameworkModule.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkModule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
               <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
               <folding />
             </state>
@@ -86,8 +78,18 @@
       <file leaf-file-name="msMenuController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext-modules/msMenu/msMenuController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="476">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="msFramework.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFramework.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1887">
+              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -133,13 +135,13 @@
         <option value="$PROJECT_DIR$/app/directives/msRpiDirective.js" />
         <option value="$PROJECT_DIR$/ext-modules/menu-items/msRpiTemplate.html" />
         <option value="$PROJECT_DIR$/ext-modules/menu-items/msSensorsTemplate.html" />
-        <option value="$PROJECT_DIR$/ext-modules/msFramework/msFramework.css" />
         <option value="$PROJECT_DIR$/ext-modules/add-device/addNewDevice.html" />
         <option value="$PROJECT_DIR$/ext-modules/msFramework/msAddDeviceModule.js" />
         <option value="$PROJECT_DIR$/ext-modules/msFramework/msAddDeviceController.js" />
         <option value="$PROJECT_DIR$/ext-modules/msFramework/msAddDeviceDirective.js" />
         <option value="$PROJECT_DIR$/ext-modules/msFramework/msFrameworkModule.js" />
         <option value="$PROJECT_DIR$/ext-modules/msFramework/msFrameworkDirective.js" />
+        <option value="$PROJECT_DIR$/ext-modules/msFramework/msFramework.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ext-modules/msFramework/msFrameworkController.js" />
         <option value="$PROJECT_DIR$/ext-modules/msFramework/msFrameworkTemplate.html" />
@@ -178,7 +180,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +195,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webstorm-MS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webstorm-MS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webstorm-MS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,6 +312,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webstorm-MS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webstorm-MS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -321,6 +350,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,10 +369,11 @@
       <recent name="C:\Users\Pubudu\Desktop\webstorm-MS\Scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Study\GitHub\MySensors_Angular\webstorm-MS\Scripts" />
+      <recent name="F:\Study\GitHub\MySensors_Angular\webstorm-MS\Content" />
       <recent name="C:\Users\Pubudu\Desktop\webstorm-MS\Content" />
       <recent name="C:\Users\Pubudu\Desktop\webstorm-MS\images" />
       <recent name="C:\Users\Pubudu\Desktop\webstorm-MS\Scripts" />
-      <recent name="C:\Users\Pubudu\Desktop\webstorm-MS\app" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -475,14 +506,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
-          <caret line="12" column="70" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkModule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
@@ -813,41 +836,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.115385" vertical-offset="816" max-vertical-offset="1751">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="1122">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFramework.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
-          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1887">
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1836">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ext-modules/msFramework/msFrameworkTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77272725" vertical-offset="0" max-vertical-offset="799">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.5151515" vertical-offset="782" max-vertical-offset="1394">
+          <caret line="62" column="83" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#form#0;n#modal#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
