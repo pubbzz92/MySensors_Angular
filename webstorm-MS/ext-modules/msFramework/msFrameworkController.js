@@ -11,9 +11,17 @@ angular.module("msFramework").controller("msFrameworkController",
 
             });
 
+            $scope.showModal = false;
             $scope.doClick = function(){
 
-                alert("add items");
+                $scope.showModal = !$scope.showModal;
+                //alert($scope.showModal);
+
+            };
+
+            $scope.close = function(){
+
+                $scope.showModal = false;
 
             };
 
