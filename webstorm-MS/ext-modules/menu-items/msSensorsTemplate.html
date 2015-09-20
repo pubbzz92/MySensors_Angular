@@ -1,5 +1,27 @@
 <div xmlns="http://www.w3.org/1999/html">
     <h1>Sensors</h1>
 
-    <button type="button" class="btn btn-primary" >Whats Up!</button>
+</div><br>
+
+<div class="row" ng-controller="dashController">
+    <div>
+
+        <article data-ng-repeat="item in dataItems | filter: {img :'map'}" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+            <div class="device">
+                <div class="thumbnail" id="event-panel">
+                    <img ng-src="images/{{item.img}}.png" alt="">
+                    <div class="caption maxheight">
+                        <div class="box_inner">
+                            <h2 class="title" itemprop="name">{{item.name}}</h2>
+                            <i class="title-body">
+                                <i class="fa {{item.Nimg}} fa-lg" aria-hidden="true"></i><span > {{item.serial}}</span> &nbsp;
+                                <i class="fa {{item.Simg}} fa-lg"></i> <span >{{item.status}}</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </div>
 </div>

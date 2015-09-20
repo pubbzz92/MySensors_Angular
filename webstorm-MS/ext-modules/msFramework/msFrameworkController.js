@@ -1,7 +1,7 @@
 ﻿"use strict";
 
 angular.module("msFramework").controller("msFrameworkController",
-    ['$scope','$location',
+    ['$scope','$location','$element','$compile',
         function ($scope,$location) {
 
             $scope.$on("ms-menu-item-selected-event",function(evt,data){
@@ -24,6 +24,15 @@ angular.module("msFramework").controller("msFrameworkController",
                 $scope.showModal = false;
 
             };
+
+            $scope.add = function() {
+                $scope.close();
+                //this can be used to add a new device to the database
+                //so that it will be displayed through ng-repeat
+
+                $('.dashboardItems').append('<h1 style="color: red">new device</h1>');
+
+            }
 
 
 

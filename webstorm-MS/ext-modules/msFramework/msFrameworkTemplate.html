@@ -24,41 +24,9 @@
                         <label>Add Device &nbsp</label>
                         <button class="btn btn-info btn-circle btn-lg " ng-click="doClick()"> <i class="glyphicon glyphicon-plus"></i> </button>
 
-                        <modal visible="showModal" title="Add a Device">
-                            <form role="form">
-                                <div class="form-group">
-                                    <label for="sel1">Select Device</label>
-                                    <select class="form-control" id="sel1">
-                                        <option value="" disabled selected>Select your option...</option>
-                                        <option>Smartphone</option>
-                                        <option>Raspberry-pi</option>
-                                    </select>
-
-                                </div>
-
-                                <!-- have to validate : disable tel number when raspberry-pi selected-->
-                                <div class="form-group">
-                                    <label for="tel" >Telephone Number</label>
-                                    <input type="number" id="tel" class="form-control" ng-minlength="10" />
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="ver" >Verification Code</label>
-                                    <input type="text" id="ver" class="form-control"/>
-                                </div>
-
-                                <div style="text-align: right">
-                                    <button type="submit" class="btn btn-info btn-circle btn-lg">
-                                        <i class="glyphicon glyphicon-ok"></i>
-                                    </button>
-
-                                    <button  class="btn btn-warning btn-circle btn-lg" ng-click="close()">
-                                        <i class="glyphicon glyphicon-remove"></i>
-                                    </button>
-                                </div>
-
-                            </form>
-                        </modal>
+                        <add-device visible="showModal" title="Add a Device">
+                                <!--add devices template goes inside here-->
+                        </add-device>
                     </li>
 
                     <li> <button class="btn btn-default btn-circle btn-lg" disabled><i class="glyphicon glyphicon-user"></i></button> </li>

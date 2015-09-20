@@ -1,13 +1,11 @@
-<div>
-    <h1>Raspberry-Pi Controllers</h1>
+<header>
+    <h1>Your Devices</h1>
+</header><br>
 
-
-</div><br>
 
 <div class="row" ng-controller="dashController">
-    <div>
-
-        <article data-ng-repeat="item in dataItems | filter: {img :'rpi'}" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="dashboardItems">
+    <article ng-repeat="item in dataItems" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
             <div class="device">
                 <div class="thumbnail" id="event-panel">
@@ -23,6 +21,6 @@
                 </div>
             </div>
 
-        </article>
+    </article>
     </div>
 </div>
