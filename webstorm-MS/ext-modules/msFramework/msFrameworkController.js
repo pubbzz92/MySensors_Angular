@@ -1,17 +1,77 @@
 ﻿"use strict";
 
 angular.module("msFramework").controller("msFrameworkController",
-    ['$scope','$location','$element','$compile',
-        function ($scope,$location) {
+    ['$scope','$location','$window','$timeout','$rootScope',
+        function ($scope,$location,$window,$timeout,$rootScope) {
+
+
+            $scope.isMenuVisible=true;
+            $scope.isMenuButtonVisible=true;
+            $scope.showModal = false;
 
             $scope.$on("ms-menu-item-selected-event",function(evt,data){
 
                 $scope.routeString=data.route;
                 $location.path(data.route);
+                checkWidth();
+                broadcastMenuState();
+                if($scope.isMenuButtonVisible){
+                    showMsView();
+                }
 
             });
 
-            $scope.showModal = false;
+        //handling window resize
+            $($window).on('resize.msFramework', function () {
+                $scope.$apply(function () {
+
+                    checkWidth();
+                    broadcastMenuState();
+
+                });
+            });
+
+            $scope.$on("$destroy", function () {
+                $($window).off("resize.msFramework"); // remove the handler added earlier
+            });
+
+            var checkWidth = function(){
+
+                var width = Math.max($($window).width(),$window.innerWidth);
+                $scope.isMenuVisible = (width >= 768);
+               $scope.isMenuButtonVisible= !$scope.isMenuVisible;
+            };
+
+
+    //toggle button and message broadcast to msMenuController saying 'ms-menu-show'
+            $scope.togClick = function() {
+
+
+                    $scope.isMenuVisible = !$scope.isMenuVisible;
+                    broadcastMenuState();
+                    showMsView();
+                    //$scope.$apply();
+
+            };
+
+            var broadcastMenuState = function () {
+                $rootScope.$broadcast('ms-menu-show',
+                    {
+                        show: $scope.isMenuVisible
+
+                    });
+            };
+
+            var showMsView=function(){
+                angular.element(".toggle").toggleClass("on");
+                if($scope.isMenuVisible){
+                    angular.element('.ms-view').hide();
+                }else{
+                    angular.element('.ms-view').show(400);
+                }
+            };
+
+
             $scope.doClick = function(){
 
                 $scope.showModal = !$scope.showModal;
@@ -32,7 +92,13 @@ angular.module("msFramework").controller("msFrameworkController",
 
                 $('.dashboardItems').append('<h1 style="color: red">new device</h1>');
 
-            }
+            };
+
+
+
+            $timeout(function(){
+                checkWidth();
+            }, 0);
 
 
 

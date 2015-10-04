@@ -43,7 +43,7 @@ angular.module('app').controller("dashController",
             'name':'Raspberry-pi',
             'serial':'14518vhj88-18',
             'img':'rpi',
-            'status':'Inctive',
+            'status':'Inactive',
             'Nimg':'fa-bug',
             'Simg':'fa-toggle-off'
 
