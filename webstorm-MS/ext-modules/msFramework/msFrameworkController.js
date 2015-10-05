@@ -67,7 +67,7 @@ angular.module("msFramework").controller("msFrameworkController",
                 if($scope.isMenuVisible){
                     angular.element('.ms-view').hide();
                 }else{
-                    angular.element('.ms-view').show(400);
+                    angular.element('.ms-view').show();
                 }
             };
 
@@ -98,6 +98,7 @@ angular.module("msFramework").controller("msFrameworkController",
 
             $timeout(function(){
                 checkWidth();
+                broadcastMenuState();
             }, 0);
 
 

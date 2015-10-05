@@ -5,8 +5,8 @@ angular.module("msMenu").controller("msMenuController",
     ['$scope','$rootScope',
 
     function($scope,$rootScope){
-        $scope.showMenu = true;
 
+        $scope.showMenu = true;
         this.getActiveElement = function () {
             return $scope.activeElement;
         };

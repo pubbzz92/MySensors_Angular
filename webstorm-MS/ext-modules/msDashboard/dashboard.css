@@ -15,3 +15,20 @@ img {
     height: auto;
 }
 
+.dashboard-title {
+    font-size: 20px;
+    border-bottom: 1px solid #444;
+    color: white;
+    background-color: #888 ;
+    margin: -20px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    padding: 8px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width:455px)  {
+    .dashboard-title{
+        text-align: center;
+    }
+}
