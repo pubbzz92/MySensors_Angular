@@ -6,7 +6,7 @@ angular.module("msFramework").controller("msFrameworkController",
 
 
             $scope.isMenuVisible=true;
-            $scope.isMenuButtonVisible=true;
+            $scope.isMenuButtonVisible=false;
             $scope.showModal = false;
 
             $scope.$on("ms-menu-item-selected-event",function(evt,data){
@@ -89,8 +89,43 @@ angular.module("msFramework").controller("msFrameworkController",
                 $scope.close();
                 //this can be used to add a new device to the database
                 //so that it will be displayed through ng-repeat
+        
+                var image;
+                var st;
+                var Nmg;
+                var Smg;
+                if (angular.element('#sel1').val() == 'Smartphone') {
+                    image = 'map';
+                    st = 'active';
+                    Nmg = 'fa-mobile';
+                    Smg = 'fa-toggle-on';
+                
+                } else if (angular.element('#sel1').val() == 'Raspberry-pi') {
+                    image = 'rpi';
+                    st = 'active';
+                    Nmg = 'fa-bug';
+                    Smg = 'fa-toggle-on';
+                
+                }
+                //this can be used to add a new device to the database
+                //so that it will be displayed through ng-repeat
+                $scope.dataItem = {
+                    name: angular.element('#sel1').val(),
+                    serial: angular.element('#tel').val(),
+                    img: image,
+                    status:st,
+                    Nimg: Nmg,
+                    Simg: Smg
 
-                $('.dashboardItems').append('<h1 style="color: red">new device</h1>');
+                };
+                //alert(name);
+
+                $rootScope.$broadcast('ms-add-device',
+                    {
+                        msg: $scope.dataItem
+
+                    });
+                //$('.dashboardItems').append('<h1 style="color: red">new device</h1>');
 
             };
 

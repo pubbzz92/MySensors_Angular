@@ -4,52 +4,19 @@
 
 angular.module('app').controller("dashController",
 
-    ['$scope', function($scope){
+    ['$scope','$rootScope','$http', function($scope,$rootScope,$http){
 
+   
+        $scope.dataItems = [];
+         //we could use the webservice here to get json data
+        $http.get('Json/testData.json').success(function(response){$scope.dataItems = response.devices;});
+            
 
-    $scope.dataItems= [
-        {
-            'name':'Smartphone',
-            'serial':'0718807352',
-            'img':'map',
-            'status':'Inactive',
-            'Nimg':'fa-mobile',
-            'Simg':'fa-toggle-off'
+        $scope.$on('ms-add-device', function (evt, data) {
+            
+            $scope.dataItems.push(data.msg);
 
-
-
-        },
-        {
-            'name':'Raspberry-pi',
-            'serial':'1451825418-246218',
-            'img':'rpi',
-            'status':'Active',
-            'Nimg':'fa-bug',
-            'Simg':'fa-toggle-on'
-
-        },
-        {
-            'name':'Smartphone',
-            'serial':'0112729729',
-            'img':'map',
-            'status':'Active',
-            'Nimg':'fa-mobile',
-            'Simg':'fa-toggle-on'
-
-
-
-        },
-        {
-            'name':'Raspberry-pi',
-            'serial':'14518vhj88-18',
-            'img':'rpi',
-            'status':'Inactive',
-            'Nimg':'fa-bug',
-            'Simg':'fa-toggle-off'
-
-        }
-
-    ]
+        });
 
 
 
