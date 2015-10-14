@@ -96,13 +96,13 @@ angular.module("msFramework").controller("msFrameworkController",
                 var Smg;
                 if (angular.element('#sel1').val() == 'Smartphone') {
                     image = 'map';
-                    st = 'active';
+                    st = 'Active';
                     Nmg = 'fa-mobile';
                     Smg = 'fa-toggle-on';
                 
                 } else if (angular.element('#sel1').val() == 'Raspberry-pi') {
                     image = 'rpi';
-                    st = 'active';
+                    st = 'Active';
                     Nmg = 'fa-bug';
                     Smg = 'fa-toggle-on';
                 

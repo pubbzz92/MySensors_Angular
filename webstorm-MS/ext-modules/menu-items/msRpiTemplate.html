@@ -17,7 +17,13 @@
                             <h3 class="title" itemprop="name">{{item.name}}</h3>
                             <i class="title-body">
                                 <i class="fa {{item.Nimg}} fa-lg" aria-hidden="true"></i><span > {{item.serial}}</span> &nbsp;
-                                <i class="fa {{item.Simg}} fa-lg"></i> <span >{{item.status}}</span></i>
+                                <div class="row press" style="margin-left: 0;">
+
+
+                                    <input type="checkbox" id="{{item.serial}}" ng-model="item.status" ng-true-value="'Active'" ng-false-value="'Inactive'" class="cbx hidden"/>
+                                    <label for="{{item.serial}}" class="lbl"></label>
+
+                                </div></i>
                         </div>
                     </div>
                 </div>

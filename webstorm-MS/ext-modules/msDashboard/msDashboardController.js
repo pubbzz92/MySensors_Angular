@@ -8,6 +8,7 @@ angular.module('app').controller("dashController",
 
    
         $scope.dataItems = [];
+
          //we could use the webservice here to get json data
         $http.get('Json/testData.json').success(function(response){$scope.dataItems = response.devices;});
             
@@ -17,6 +18,8 @@ angular.module('app').controller("dashController",
             $scope.dataItems.push(data.msg);
 
         });
+
+
 
 
 
