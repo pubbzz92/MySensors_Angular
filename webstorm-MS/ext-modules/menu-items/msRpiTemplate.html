@@ -15,15 +15,26 @@
                     <div class="caption maxheight">
                         <div class="box_inner">
                             <h3 class="title" itemprop="name">{{item.name}}</h3>
-                            <i class="title-body">
-                                <i class="fa {{item.Nimg}} fa-lg" aria-hidden="true"></i><span > {{item.serial}}</span> &nbsp;
-                                <div class="row press" style="margin-left: 0;">
+                          <div class="title-body">
+                                <!--device switch panel -->
+                                <div class="row press" style="margin-left: 0; margin-bottom:0;margin-right:0;">
+                                   <ul class="list-inline switch-grid">
+                                      <li >
+                                         <input type="checkbox" id="{{item.serial}}" ng-model="item.status" ng-true-value="'Active'" ng-false-value="'Inactive'" class="cbx hidden"/>
+                                         <label for="{{item.serial}}" class="lbl"></label>
+                                      </li>
+                                      <li>
+                                         <button class="btn btn-primary">Switch</button>
+                                      </li>
+                                      <li>
+                                         <button class="btn btn-primary">Switch</button>
 
-
-                                    <input type="checkbox" id="{{item.serial}}" ng-model="item.status" ng-true-value="'Active'" ng-false-value="'Inactive'" class="cbx hidden"/>
-                                    <label for="{{item.serial}}" class="lbl"></label>
-
-                                </div></i>
+                                      </li>
+                                   </ul>
+                                </div>
+                                <!-- to check the toggle switch -->
+                                {{item.status}}
+                             </div>
                         </div>
                     </div>
                 </div>
