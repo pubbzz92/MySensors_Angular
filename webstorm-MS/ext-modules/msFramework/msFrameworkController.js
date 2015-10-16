@@ -87,7 +87,7 @@ angular.module("msFramework").controller("msFrameworkController",
 
             $scope.add = function() {
                 $scope.close();
-                //this can be used to add a new device to the database
+                //TODO: this can be used to add a new device to the database
                 //so that it will be displayed through ng-repeat
         
                 var image;

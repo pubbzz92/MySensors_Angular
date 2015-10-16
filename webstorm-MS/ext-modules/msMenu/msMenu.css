@@ -7,6 +7,9 @@
     min-height: 100vh;
     padding-top: 30px;
     float:left;
+    -webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
 
 }
 
@@ -100,11 +103,21 @@ line-height: 3em;
 @media screen and (max-width: 768px){
 
     .ms-menu-area{
-
+        z-index:100;
         width:95%;
         font-size: large;
+        -webkit-transition:all linear 0.1s;
+        transition:all linear 0.3s;
 
     }
+    .ms-menu-area.ng-hide{
+     
+       padding: 10px 0 0 0;
+       opacity:0;
+  
+       
+    }
+    
 
 
 }

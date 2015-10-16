@@ -12,7 +12,7 @@
                     <img ng-src="images/{{item.img}}.png" alt="">
                     <div class="caption maxheight">
                         <div class="box_inner">
-                           <h3 class="title" itemprop="name">{{item.name}}</h3>
+                           <h3 class="title" itemprop="name">{{item.name}}</h3> <p>{{item.serial}}</p>
                            <!--<i class="fa {{item.Nimg}} fa-lg" aria-hidden="true"></i><span > {{item.serial}}</span>--> 
                              <div class="title-body">
                                 <!--device switch panel -->
@@ -32,7 +32,7 @@
                                    </ul>
                                 </div>
                                 <!-- to check the toggle switch -->
-                                {{item.status}}
+                                {{item.status}} 
                                 
                              </div>
                         </div>
