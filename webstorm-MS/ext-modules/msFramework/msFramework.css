@@ -72,9 +72,10 @@
 
 }
 .btn-circle.btn-lg {
+    text-align: left;
     width: 50px;
     height: 50px;
-    padding: 10px 16px;
+    padding: 4px 0px 0px 12px;
     font-size: 18px;
     line-height: 1.33;
     border-radius: 25px;
@@ -318,9 +319,9 @@ padding: 5px 5px 0px 5px;
     right: 10px;
 }
 .dropdown-menu{
-    line-height: 1em;
-    background-color: #F5F5F5;
+    line-height: 0;
     box-shadow: 2px 2px 10px #343434;
+
 }
 
 
