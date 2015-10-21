@@ -11,7 +11,7 @@ angular.module('app').controller("dashController",
 
          //we could use the webservice here to get json data
         $http.get('Json/testData.json').success(function(response){$scope.dataItems = response.devices;});
-            
+
 
         $scope.$on('ms-add-device', function (evt, data) {
             
